@@ -1,0 +1,118 @@
+body {
+    background-color: #252525;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 100px;
+    text-align: center;
+}
+
+.home-link {
+    width: 180px;
+    border: 0.5px solid #252525;
+    border-radius: 30px;
+    height: 30px;
+    background-color: #959595;
+    color: #252525;
+    padding: 6px;
+    box-sizing: border-box;
+    margin: 10px auto;
+    display: block;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.home-link:hover {
+    width: 190px;
+    border: 0.5px solid #959595;
+    background-color: #252525;
+    color: #959595;
+    transition: 0.7s;
+}
+
+.title {
+    color: #959595;
+}
+
+.edit-form {
+    margin: 0 auto;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.edit-form .note-title {
+    padding: 5px 20px;
+    margin: 5px auto;
+    font-size: 22px;
+    border: 1px solid #252525;
+    border-radius: 5px;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    color: #252525;
+    background-color: #e5e5e5;
+    font-style: italic;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.edit-form .note-body {
+    padding: 5px 20px;
+    margin: 5px auto;
+    font-size: 22px;
+    font-style: italic;
+    border: 1px solid #252525;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    color: #252525;
+    background-color: #e5e5e5;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.edit-form .save-btn {
+    padding: 5px 20px;
+    margin: 5px auto;
+    font-size: 18px;
+    border: 1px solid #252525;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    color: #252525;
+    background-color: #e5e5e5;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.edit-form .save-btn:hover {
+    background-color: #25b555;
+    transition: 0.3s;
+}
+
+.edit-form .save-btn:active {
+    background-color: #15a545;
+    transition: 0.2s;
+}
+
+.last-edit {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 100%;
+    font-size: 14px;
+    border: 1px solid #252525;
+    border-radius: 5px;
+    width: 50%;
+    /* height: 45px; */
+    outline: none;
+    color: #252525;
+    background-color: #e5e5e5;
+    font-style: italic;
+    box-sizing: border-box;
+    transition: 0.3s;
+}

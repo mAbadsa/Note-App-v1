@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="note-box">
+            <span class="add-note">+</span>
+            <div class="title-box" id="title">
+                <h1>Todos App</h1>
+            </div>
+            <div class="input-search" id="search-input">
+                <input type="text" class="" id="search-notes">
+            </div>
+            <div class="select-box" id="control-btns">
+                <select class="sort-select" id="filter-by">
+                    <option value="byEdited">Sort by last edit</option>
+                    <option value="byCreated">Sort by recently created</option>
+                    <option value="alphapetically">Sort by alphapetically</option>
+                </select>
+            </div>
+            <div class="note-body" id="notes">
+                <p class="note-text" id="note"></p>
+                <br>
+            </div>
+        </div>
+        <div class="form-box hidden" id="new-task">
+            <form id="task-form">
+                <button class="close">X</button>
+                <input type="text" name="titleTask" placeholder="Title Task">
+                <textarea placeholder="Type your task..." name="bodyTask"></textarea>
+                <div class="btn-box" id="control-btns">
+                    <button class="btn create-btn" id="create-note">Create Note</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+    <script src="scripts/uuidv4.js"></script>
+    <script src="scripts/note-app.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

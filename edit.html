@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/editStyle.css">
+    <title>Editing Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">This is the edit page</h1>
+        <a class="home-link" href="index.html">Return To Main Page</a>
+        <form class="edit-form">
+            <input type="text" class="note-title" id="note-title-edit" placeholder="Note Title...">
+            <span class="last-edit"></span>
+            <textarea class="note-body" id="note-body-edit" cols="30" rows="5" placeholder="Note Body..."></textarea>
+            <button class="save-btn" id="save-note">save</button>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+    <script src="scripts/note-app.js"></script>
+    <script src="scripts/note-edit.js"></script>
+</body>
+
+</html>
